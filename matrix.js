@@ -131,9 +131,9 @@ class SparseMatrix {
     }
 
 function main() {
-    const matrix1Path = '/dsa/sparse_matrix/sample_inputs/matrixfile1.txt';
-    const matrix2Path = '/dsa/sparse_matrix/sample_inputs/matrixfile3.txt';
-    const resultPath = '/dsa/sparse_matrix/sample_outputs/result.txt';
+    const matrix1Path = './sparse_matrix/sample_inputs/matrixfile1.txt';
+    const matrix2Path = './sparse_matrix/sample_inputs/matrixfile3.txt';
+    const resultPath = './sparse_matrix/sample_outputs/result.txt';
   
     // Load matrices from files
     const matrix1 = SparseMatrix.fromFile(matrix1Path);
